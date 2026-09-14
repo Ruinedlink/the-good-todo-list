@@ -1,0 +1,195 @@
+* {
+    font-family: "Segoe UI";
+    color: #EFEFF5;
+    outline: none;
+}
+
+#centralWidget {
+    background-color: rgba(66, 83, 129, 180);
+    border-radius: 10px;
+
+}
+
+#sidebarPanel, #rightTopPanel, #taskDisplay {
+    background-color: rgba(17, 21, 61, 200);
+    border: 1px solid rgba(135, 108, 162, 100);
+    border-radius: 10px;
+}
+
+QListWidget {
+    background-color: rgba(17, 21, 61, 150);
+    border: none;
+    border-radius: 10px;
+}
+
+QListWidget::item {
+    padding: 0px;
+    border-radius: 6px;
+}
+
+QListWidget::item:selected {
+    background-color: rgba(110, 139, 179, 120);  /* light blue, your selected color */
+}
+
+QListWidget::item:hover {
+    background-color: rgba(255, 255, 255, 40);
+}
+
+QTextEdit {
+    background-color: rgba(17, 21, 61, 150);
+    border: none;
+    border-radius: 8px;
+}
+
+QPushButton {
+    background-color: rgba(255, 255, 255, 12);
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: rgba(255, 255, 255, 30);
+}
+
+QPushButton:pressed {
+    background-color: rgba(255, 255, 255, 45);
+}
+
+TaskLabel[selected="true"] {
+    background-color: rgba(110, 139, 179, 120);
+    border: 1px solid rgba(135, 108, 162, 150);
+}
+
+TaskLabel {
+    background-color: rgba(17, 21, 61, 150);
+    border: none;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+TaskLabel:hover {
+    background-color: rgba(225, 225, 225, 30);
+
+}
+
+CustomTitleBar QPushButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 0px;
+}
+
+CustomTitleBar QPushButton:hover {
+    background-color: rgba(225, 225, 225, 30);
+}
+
+QLineEdit {
+    background-color: rgba(17, 21, 61, 150);
+    border: none;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+DateSelectorPopup {
+    background-color: rgba(17, 21, 61, 150);
+}
+
+DateSelectorPopup QCalendarWidget {
+    background-color: rgba(17, 21, 61, 150);
+}
+
+DateSelectorPopup QTimeEdit {
+    background-color: rgba(17, 21, 61, 150);
+}
+
+DateSelectorPopup QCalendarWidget QToolButton {
+    background-color: transparent;
+    color: #EFEFF5;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+DateSelectorPopup QCalendarWidget QToolButton:hover {
+    background-color: rgba(255, 255, 255, 25);
+}
+
+DateSelectorPopup QCalendarWidget QMenu {
+    background-color: rgba(17, 21, 61, 230);
+    border: 1px solid rgba(135, 108, 162, 100);
+}
+
+DateSelectorPopup QCalendarWidget QSpinBox {
+    background-color: rgba(255, 255, 255, 12);
+    color: #EFEFF5;
+    border: none;
+}
+
+DateSelectorPopup QCalendarWidget QAbstractItemView {
+    background-color: rgba(17, 21, 61, 150);
+    selection-background-color: rgba(110, 139, 179, 150);
+    color: #EFEFF5;
+    outline: none;
+}
+
+ListRightClickMenuPopup {
+    background-color: rgba(17, 21, 61, 150);
+}
+
+CreateListPopup {
+    background-color: rgba(110, 139, 179, 200);
+}
+
+CreateListPopup QLineEdit {
+    background-color: rgba(255, 255, 255, 30);
+}
+
+TaskRightClickMenuPopup {
+    background-color: rgba(17, 21, 61, 150);
+}
+
+QComboBox {
+    background-color: rgba(17, 21, 61, 150);
+    border: none;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+QComboBox:hover {
+    background-color: rgba(255, 255, 255, 20);
+}
+
+QComboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: rgba(17, 21, 61, 230);
+    border: 1px solid rgba(135, 108, 162, 100);
+    selection-background-color: rgba(110, 139, 179, 150);
+    color: #EFEFF5;
+    outline: none;
+}
+
+QMenu {
+    background-color: rgba(17, 21, 61, 230);
+    border: 1px solid rgba(135, 108, 162, 100);
+    border-radius: 8px;
+    padding: 4px;
+}
+
+QMenu::item {
+    padding: 6px 20px;
+    border-radius: 4px;
+}
+
+QMenu::item:selected {
+    background-color: rgba(110, 139, 179, 150);
+}
+
+QMenu::separator {
+    height: 1px;
+    background-color: rgba(135, 108, 162, 80);
+    margin: 4px 8px;
+}
